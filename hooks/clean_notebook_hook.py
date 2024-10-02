@@ -39,7 +39,7 @@ def main(argv: Sequence[str] | None = None) -> int:
 
             # Create the new filename
             base_name = os.path.splitext(os.path.basename(filename))[0]
-            new_filename = f"{base_name}_cleaned.py"
+            new_filename = f"{base_name}_cleaned.py.diff"
 
             # Get the staged content
             staged_content = get_staged_content(new_filename)
