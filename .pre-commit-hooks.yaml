@@ -1,0 +1,7 @@
+-   id: clean-notebook
+    name: Clean Jupyter Notebook
+    description: Creates a cleaned Python file from Jupyter notebooks
+    entry: clean-notebook
+    language: python
+    types: [jupyter]
+    stages: [commit]
