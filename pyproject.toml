@@ -1,0 +1,18 @@
+[project]
+name = "clean_notebook_hook"
+description = "Pre-commit hook provided by Moonglow"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Leila Clark", email = "leila@moonglow.ai"},
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["version"]
+
+[project.scripts]
+clean-notebook = "hooks.clean_notebook_hook:main"
